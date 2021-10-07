@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pitbull-GYM</title>
+    <link rel="shortcut icon" href="Images/pitbull.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Estilos/Estilo.css">
+    <script src="jQuery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(function(){
+            $("body").hide().fadeIn(2000);
+        });
+    </script>
+
+    <style>
+    
+    /*body {
+      background-image:url(Images/gym.jpeg);
+      font-family: 'Roboto Condensed', sans-serif;  
+      font-size: 16px;
+      overflow: hidden;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }*/
+
+    body {
+        background: url(Images/gym2.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        height: 100vh;
+        font-family: 'Roboto Condensed', sans-serif;  
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    </style>
+</head>
+<body>
+<div class="contenedor">
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/omegazonerp/"  target="_blank" class="icon-facebook2"></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="http://www.google.com/" target="_blank" class="icon-mail2"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCp-P1MFd6QHcbtLw9XvCzow" target="_blank" class="icon-youtube"></a></li>
+            <!--Espacio para crear otra barra social.
+            <li><a href="http://www.pinterest.com/" target="_blank" class="icon-pinterest"></a></li>-->
+        </ul>
+    </div>
+    <div class="menu">
+        <span class="toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <div class="menuContent">
+            <ul>
+                <li><a href="#" class="icon-home" style="text-decoration: none;"></a>Home</li>
+                <li><a href="#" class="icon-stack" style="text-decoration: none;"></a>About</li>
+                <li><a href="#" class="icon-phone" style="text-decoration: none;"></a>Contact</li>
+                <li><a class="icon-coin-dollar"></a><a href="productos.html"  style="text-decoration: none;color: black;">Productos</a></li>
+                <li><a href="#" class="icon-users" style="text-decoration: none;"></a>Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+    <div class="principal">
+        <center><h1 style="color:white;margin: 50px;">Pitbull GYM</h1>
+        <a href="#" class="bottom">
+            <span class="bottom2">¡Entérate más!</span>
+        </a></center>
+    </div>
+</div>
+<footer>
+    <div class="container-footer-all">
+        <div class="container-body">
+            <div class="column1">
+                <h1>¡Más información sobre el GYM!</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio ex temporibus modi porro consequatur accusamus in beatae voluptatem dignissimos? Quo cum error distinctio eaque quia illo praesentium iure sunt? Rem fuga harum nam deserunt qui ratione velit. Tempore maiores quos ea mollitia commodi nam ex quis, animi porro error?</p>
+
+            </div>
+
+            <div class="column2">
+                <h1>Redes sociales</h1>
+
+                <div class="row">
+                    <img src="Images/facebook.png">
+                    <label><a href="#" style="text-decoration: none;">Síguenos en facebook</a></label>
+                </div>
+
+                <div class="row">
+                    <img src="Images/twitter.png">
+                    <label><a href="#" style="text-decoration: none;">Síguenos en Twitter</a></label>
+                </div>
+
+                <div class="row">
+                    <img src="Images/instagram.png">
+                    <label><a href="#" style="text-decoration: none;">Síguenos en Instagram</a></label>
+                </div>
+
+                <div class="row">
+                    <img src="Images/tumblr.png">
+                    <label><a href="#" style="text-decoration: none;">Síguenos en Youtube</a></label>
+                </div>
+
+                <div class="row">
+                    <img src="Images/pinterest.png">
+                    <label><a href="#" style="text-decoration: none;">Síguenos en pinterest</a></label>
+                </div>
+
+            </div>
+
+            <div class="column3">
+                <h1>Información Adicional</h1>
+
+                <div class="row2">
+                    <img src="Images/house.png">
+                    <label>Estamos ubicados
+                        frente al estadio
+                        San José
+                    </label>
+                </div>
+
+                <div class="row2">
+                    <img src="Images/smartphone.png">
+                    <label>+57 300 360 6702</label>
+                </div>
+
+                <div class="row2">
+                    <img src="Images/contact.png">
+                    <label>pitbullgym@gmail.com</label>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container-footer">
+        <div class="footer">
+            <div class="copyright">
+                <p>Todos los derechos reservados 2019 Pitbull-GYM</p>
+            </div>
+            <div class="information">
+                <a href="">Información GYM</a> | <a href="">Privacidad y Política</a> | <a href="">Términos y condiciones</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script>
+        $('.toggle').on('click', function() {
+	        $('.menu').toggleClass('active');
+        });
+    </script>
+</body>
+</html>

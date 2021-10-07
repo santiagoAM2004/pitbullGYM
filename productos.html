@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Productos - Pitbull-GYM</title>
+    <link rel="shortcut icon" href="Images/pitbull.jpeg">
+    <link rel="stylesheet" href="Estilo-productos/swiper.min.css">
+    <link rel="stylesheet" href="Estilo-productos/Estilo-producto.css">
+    <script src="jQuery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(function(){
+            $("body").hide().fadeIn(2000);
+        });
+    </script>
+
+    <style>
+        body {
+        background: url(Images/gym3.jpeg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        height: 100vh;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <center><h1>¡Consigue tu proteína al mejor precio!</h1></center>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina2.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina3.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina4.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina5.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina6.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBx">
+                        <img src="Images2/Proteina7.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Proteina<br><span>Costo: 100.000.00$</span></h3>
+                    </div>
+                </div>
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="volver">
+        <form name="buttonbar">
+            <input class="boton" type="button" value="Volver" onClick="history.back()">
+        </form>
+    </div>
+</div>
+
+  <script src="JavaScript/swiper.min.js"></script>
+
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 10,
+            depth: 250,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+    </script>
+</body>
+</html>
